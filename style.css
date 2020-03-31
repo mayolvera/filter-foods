@@ -36,6 +36,11 @@ html, body {
     min-height: 185px;
     text-align: center;
     flex: 1 0 34%;
+    display: none;
+}
+
+.item.active {
+    display: block;
 }
 
 img {
